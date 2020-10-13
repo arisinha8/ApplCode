@@ -3,7 +3,7 @@ from flask import Flask
 # print a nice greeting.
 
 
-def say_hello(username="World"):
+def say_hello(username="Arijit"):
     return '<p>My name is  %s!</p>\n' % username
 
 
@@ -12,7 +12,7 @@ header_text = '''
     <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
 instructions = '''
     <p><em>Hint</em>: This is a RESTful web service! Append a username
-    to the URL (for example: <code>/Thelonious</code>) to say hello to
+    to the URL (for example: <code>/Arijit</code>) to say Greetings to
     someone specific.</p>\n'''
 home_link = '<p><a href="/">Back</a></p>\n'
 footer_text = '</body>\n</html>'
